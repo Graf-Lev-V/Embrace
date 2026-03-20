@@ -1,357 +1,549 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Embrace</title>
-        <meta name="description" content="Marketing Agency">
+    <title>Embrace</title>
+    <meta name="description" content="Marketing Agency" />
 
-        <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="images/favicon.png" type="image/png" />
 
-        <meta property="og:title" content="Embrace">
-        <meta property="og:description" content="Marketing Agency">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://embrace.com">
+    <meta property="og:title" content="Embrace" />
+    <meta property="og:description" content="Marketing Agency" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://embrace.com" />
 
-        <meta property="og:image" content="https://embrace.com/images/og-image.png">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-        <meta property="og:image:type" content="image/png">
+    <meta
+      property="og:image"
+      content="https://embrace.com/images/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
 
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-        <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <script src="main.js" defer></script>
-    </head>
-    <body>
-        <header class="header">
-            <div class="header__wrapper">
-                <div class="header__wrapper-left">
-                    <a class="header__logo-link" href="/">
-                        <img class="header__logo" src="images/logo.svg" alt="Embrace logo">
-                    </a>
-                </div>
-                <nav class="main-nav" aria-label="Primary navigation">
-                    <ul class="main-nav__list">
-                        <li><a class="main-nav__item" href="#howItWorks">How It Works</a></li>
-                        <li><a class="main-nav__item" href="#our-work">Our Work</a></li>
-                        <li><a class="main-nav__item" href="#">Pricing</a></li>
-                        <li><a class="main-nav__item" href="#">About Us</a></li>
-                    </ul>
-                </nav>
-                <div class="header__wrapper-right">
-                    <button class="header__button" type="button">Book A Call</button>
-                </div>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__wrapper-left">
+          <a class="header__logo-link" href="/">
+            <img
+              class="header__logo"
+              src="images/logo.svg"
+              alt="Embrace logo"
+            />
+          </a>
+        </div>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <ul class="main-nav__list">
+            <li>
+              <a class="main-nav__item" href="#howItWorks">How It Works</a>
+            </li>
+            <li><a class="main-nav__item" href="#our-work">Our Work</a></li>
+            <li><a class="main-nav__item" href="#">Pricing</a></li>
+            <li><a class="main-nav__item" href="#">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="header__wrapper-right">
+          <button class="header__button" type="button">Book A Call</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="hero__wrapper container container--flex">
+          <div class="hero__wrapper-left">
+            <h1 class="hero__title">We Take Care Of Your Brand</h1>
+            <p class="hero__description">
+              We care about our work and we care about our clients.
+            </p>
+            <form class="hero__form">
+              <input
+                class="hero__email"
+                name="email"
+                type="email"
+                placeholder="Enter Your Email"
+                required
+                autocomplete="email"
+                aria-label="Email"
+              />
+              <button class="hero__button" type="submit">Let's Talk</button>
+            </form>
+          </div>
+          <img class="hero__image" src="images/hero-title.jpg" alt="" />
+        </div>
+      </section>
+      <section class="section partners">
+        <div class="container">
+          <h2 class="partners__title">Companies We Work With</h2>
+          <ul class="partners__list partners__list--top">
+            <li><img src="images/Company logo1.svg" alt="Spotify" /></li>
+            <li><img src="images/Company logo2.svg" alt="Google" /></li>
+            <li><img src="images/Company logo3.svg" alt="Uber" /></li>
+            <li><img src="images/Company logo4.svg" alt="Microsoft" /></li>
+            <li><img src="images/Company logo5.svg" alt="Shopify" /></li>
+          </ul>
+          <ul class="partners__list">
+            <li><img src="images/Company logo6.svg" alt="Evernote" /></li>
+            <li><img src="images/Company logo7.svg" alt="Adobe" /></li>
+            <li><img src="images/Company logo8.svg" alt="PayPal" /></li>
+            <li><img src="images/Company logo9.svg" alt="Amazon" /></li>
+            <li><img src="images/Company logo10.svg" alt="Asana" /></li>
+          </ul>
+        </div>
+      </section>
+      <section class="commit section--large" id="commit">
+        <div class="commit__inner container container--flex">
+          <ul class="commit__list">
+            <li class="commit__item">
+              <p class="commit__item-title">245%</p>
+              <p class="commit__item-desc">More revenues for the brand</p>
+            </li>
+            <li class="commit__item">
+              <p class="commit__item-title">130K+</p>
+              <p class="commit__item-desc">Audiences reached</p>
+            </li>
+            <li class="commit__item">
+              <p class="commit__item-title">50+</p>
+              <p class="commit__item-desc">Brands trust us</p>
+            </li>
+            <li class="commit__item">
+              <p class="commit__item-title">24+</p>
+              <p class="commit__item-desc">Worldwide awards</p>
+            </li>
+          </ul>
+          <div class="commit__main">
+            <h2 class="commit__title">Commitments</h2>
+            <p class="commit__desc">
+              We are committed to working with you collaboratively to understand
+              your goals and create a strategy that will achieve them.
+            </p>
+            <a class="commit__button" href="#">
+              Learn More
+              <img
+                class="commit__button--arrow"
+                src="images/arrow--right.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works section" id="howItWorks">
+        <div class="how-it-works__inner container container--flex">
+          <div class="how-it-works__main">
+            <div class="how-it-works__main-top">
+              <h2 class="how-it-works__title">How It Works</h2>
+              <p class="how-it-works__description">
+                We believe that the best way to create successful marketing
+                campaigns is to work closely with our clients to understand
+                their goals and challenges.
+              </p>
             </div>
-        </header>
-        <main>
-            <section class="hero section">
-                <div class="hero__wrapper container container--flex">
-                    <div class="hero__wrapper-left">
-                            <h1 class="hero__title">We Take Care Of Your Brand</h1>
-                            <p class="hero__description">We care about our work and we care about our clients.</p>
-                        <form class="hero__form">
-                            <input class="hero__email" name="email" type="email" placeholder="Enter Your Email" required autocomplete="email" aria-label="Email">
-                            <button class="hero__button" type="submit">Let's Talk</button>
-                        </form>
-                    </div>
-                    <img class="hero__image" src="images/hero-title.jpg" alt="">
-                </div>
-            </section>
-            <section class="section partners">
-                <div class="container">
-                    <h2 class="partners__title">Companies We Work With</h2>
-                    <ul class="partners__list partners__list--top">
-                        <li><img src="images/Company logo1.svg" alt="Spotify"></li>
-                        <li><img src="images/Company logo2.svg" alt="Google"></li>
-                        <li><img src="images/Company logo3.svg" alt="Uber"></li>
-                        <li><img src="images/Company logo4.svg" alt="Microsoft"></li>
-                        <li><img src="images/Company logo5.svg" alt="Shopify"></li>
-                    </ul>
-                    <ul class="partners__list">
-                        <li><img src="images/Company logo6.svg" alt="Evernote"></li>
-                        <li><img src="images/Company logo7.svg" alt="Adobe"></li>
-                        <li><img src="images/Company logo8.svg" alt="PayPal"></li>
-                        <li><img src="images/Company logo9.svg" alt="Amazon"></li>
-                        <li><img src="images/Company logo10.svg" alt="Asana"></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="commit section--large" id="commit">
-                <div class="commit__inner container container--flex ">
-                    <ul class="commit__list">
-                            <li class="commit__item">
-                                <p class="commit__item-title">245%</p>
-                                <p class="commit__item-desc">More revenues for the brand</p>
-                            </li>
-                            <li class="commit__item">
-                                <p class="commit__item-title">130K+</p>
-                                <p class="commit__item-desc">Audiences reached</p>
-                            </li>
-                            <li class="commit__item">
-                                <p class="commit__item-title">50+</p>
-                                <p class="commit__item-desc">Brands trust us</p>
-                            </li>
-                            <li class="commit__item">
-                                <p class="commit__item-title">24+</p>
-                                <p class="commit__item-desc">Worldwide awards</p>
-                            </li>
-                    </ul>
-                    <div class="commit__main">
-                        <h2 class="commit__title">Commitments</h2>
-                        <p class="commit__desc">We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.</p>
-                        <a class="commit__button" href="#">
-                            Learn More
-                            <img class="commit__button--arrow" src="images/arrow--right.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="how-it-works section" id="howItWorks">
-                <div class="how-it-works__inner container container--flex">
-                    <div class="how-it-works__main">
-                        <div class="how-it-works__main-top">
-                            <h2 class="how-it-works__title">How It Works</h2>
-                            <p class="how-it-works__description">We believe that the best way to create successful marketing campaigns is to work closely with our clients to understand their goals and challenges.</p>
-                        </div>
-                        <img class="how-it-works__image" src="images/og-image copy.png" alt="">
-                    </div>
-                    <ul class="how-it-works__list">   
-                        <li class="how-it-works__item">
-                            <img class="how-it-works__logo" src="images/majesticons_dollar-circle.svg" alt="">
-                            <div class="how-it-works__item-right">
-                                <h3 class="how-it-works__item-title">Discovery</h3>
-                                <p class="how-it-works__item-text">We meet with you to learn about your business, your goals, and your target audience.</p>
-                            </div>
-                        </li>
-                        <li class="how-it-works__item">
-                            <img class="how-it-works__logo" src="images/majesticons_dollar-circle2.svg" alt="">
-                            <div class="how-it-works__item-right">
-                                <h3 class="how-it-works__item-title">Strategy</h3>
-                                <p class="how-it-works__item-text">We develop a customized marketing strategy that is based on your unique needs and goals.</p>
-                            </div>
-                        </li>
-                        <li class="how-it-works__item">
-                            <img class="how-it-works__logo" src="images/majesticons_dollar-circle3.svg" alt="">
-                            <div class="how-it-works__item-right">
-                                <h3 class="how-it-works__item-title">Execution</h3>
-                                <p class="how-it-works__item-text">We execute our strategy using the latest digital marketing tools and techniques.</p>
-                            </div>
-                        </li>
-                        <li class="how-it-works__item">
-                            <img class="how-it-works__logo" src="images/majesticons_dollar-circle4.svg" alt="">
-                            <div class="how-it-works__item-right">
-                                <h3 class="how-it-works__item-title">Measurement</h3>
-                                <p class="how-it-works__item-text">We track the results of our campaigns so that we can make adjustments as needed.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="our-work section--large" id="our-work">
-                    <h2 class="our-work__title">Our Work</h2>
-                    <p class="our-work__description">A glimpse of our portfolio</p>
-                    <ul class="our-work__list container">
-                        <li class="our-work__list-item">
-                            <figure class="our-work__item">
-                                <img class="our-work__image" src="images/Apple.png" alt="">
-                                <figcaption class="our-work__caption">Apple</figcaption>
-                            </figure>
-                        </li>
-                        <li class="our-work__list-item">
-                            <figure class="our-work__item">
-                                <img class="our-work__image" src="images/Coca-Cola.png" alt="">
-                                <figcaption class="our-work__caption">Coca-Cola</figcaption>
-                            </figure>
-                        </li>
-                        <li class="our-work__list-item">
-                            <figure class="our-work__item">
-                                <img class="our-work__image" src="images/Nike.png" alt="">
-                                <figcaption class="our-work__caption">Nike</figcaption>
-                            </figure>
-                        </li>
-                    </ul>
-                    <a class="our-work__see-more" href="#">See More</a>
-            </section>
-            <section class="elevate-brand section">
-                <div class="elevate-brand__container container">
-                    <div class="elevate-brand__inner container--flex">
-                        <h2 class="elevate-brand__title">Elevate Your Brand Today!</h2>
-                        <div class="elevate-brand__right">
-                            <p class="elevate-brand__description">Ready to transform your digital presence? Let's create magic together! Book our services now!</p>
-                            <button class="elevate-brand__book-call" type="button">Book Call</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="meet-team section--large" id="meet-team">
-                <div class="meet-team__inner container container--flex">
-                    <ul class="meet-team__photos">
-                        <li class="meet-team__photo"><img src="images/Team1.png" alt=""></li>
-                        <li class="meet-team__photo"><img src="images/Team2.png" alt=""></li>
-                        <li class="meet-team__photo"><img src="images/Team3.png" alt=""></li>
-                        <li class="meet-team__photo"><img src="images/Team4.png" alt=""></li>
-                        <li class="meet-team__photo"><img src="images/Team5.png" alt=""></li>
-                        <li class="meet-team__photo"><img src="images/Team6.png" alt=""></li>
-                    </ul>
-                    <div class="meet-team__main">
-                        <div class="meet-team__main-top">
-                            <h2 class="meet-team__title">Meet Our Team</h2>
-                            <p class="meet-team__description">Discover the brilliance behind Embrace. Our team blends innovation and artistry to craft digital wonders that captivate</p>
-                        </div>
-                        <a class="meet-team__learn-more" href="#">Learn More</a>
-                    </div>
-                </div>
-            </section>
-            <section class="reviews section">
-                <div class="reviews__inner container">
-                    <div class="reviews__title-container container--flex">
-                        <h2 class="reviews__title">What Our Client Said About Us</h2>
-                        <div class="reviews__arrows">
-                            <button class="reviews__arrow reviews__arrow-left" type="button" aria-label="Previous review" data-reviews-prev disabled>
-                                <img src="images/arrow-left.svg" alt="" data-src-enabled="images/arrow-left-enabled.svg" data-src-disabled="images/arrow-left.svg">
-                            </button>
-                            <button class="reviews__arrow reviews__arrow-right" type="button" aria-label="Next review" data-reviews-next>
-                                <img src="images/arrow-right.svg" alt="" data-src-enabled="images/arrow-right.svg" data-src-disabled="images/arrow-right-disabled.svg">
-                            </button>
-                        </div>
-                    </div>
-                    <div class="reviews__viewport" data-reviews-viewport>
-                        <ul class="reviews__list" data-reviews-track>
-                            <li class="reviews__item is-active">
-                                <figure class="reviews__item-head">
-                                    <img class="reviews__client-photo" src="images/client1.png" alt="">
-                                    <figcaption class="reviews__client">
-                                        <h3 class="reviews__client-name">Amelia Joseph</h3>
-                                        <p class="reviews__client-profession">Chief Manager</p>
-                                    </figcaption>
-                                </figure>
-                                <p class="reviews__client-description">
-                                    My vision came alive effortlessly. Their blend of casual and professional approach made the process a breeze. Creativity flowed, and the results were beyond my expectations.
-                                </p>
-                            </li>
-                            <li class="reviews__item">
-                                <figure class="reviews__item-head">
-                                    <img class="reviews__client-photo" src="images/client2.png" alt="">
-                                    <figcaption class="reviews__client">
-                                        <h3 class="reviews__client-name">Jacob Joshua</h3>
-                                        <p class="reviews__client-profession">Chief Manager</p>
-                                    </figcaption>
-                                </figure>
-                                <p class="reviews__client-description">
-                                    I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!
-                                </p>
-                            </li>
-                            <li class="reviews__item">
-                                <figure class="reviews__item-head">
-                                    <img class="reviews__client-photo" src="images/client3.png" alt="">
-                                    <figcaption class="reviews__client">
-                                        <h3 class="reviews__client-name">Jacob Joshua</h3>
-                                        <p class="reviews__client-profession">Chief Manager</p>
-                                    </figcaption>
-                                </figure>
-                                <p class="reviews__client-description">
-                                    Embrace really nails it! Creative brilliance, approachable style. They're the partners you want—artistry meets strategy. Thrilled with what they achieved!
-                                </p>
-                            </li>
-                        </ul>
-                    </div> 
-                </div>
-            </section>
-            <section class="start-now section--large">
-                <div class="start-now__background container">
-                    <div class="start-now__inner">
-                        <div class="start-now__main">
-                            <h2 class="start-now__title">Start Your Journey With Us Now</h2>
-                            <button class="start-now__button" type="button">Start Now</button>
-                        </div>
-                        <img class="start-now__ellipse" src="images/start-now__ellipse.svg" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="faq section--large" id="faq">
-                <div class="faq__inner container">
-                    <ul class="faq__list">
-                        <li class="faq__item">
-                            <button class="faq__item-button" type="button"> <!--- учебный сайт -> не добавляю интерактив дальше в js --->
-                                <span class="faq__item-text">How do I sign up for the project?</span>
-                                <img class="faq__item-icon" src="images/faq_plus.svg" alt="">
-                            </button>
-                        </li>
-                        <li class="faq__item">
-                            <button class="faq__item-button" type="button">
-                                <span class="faq__item-text">What should I prepare before starting?</span>
-                                <img class="faq__item-icon" src="images/faq_plus.svg" alt="">
-                            </button>
-                        </li>
-                        <li class="faq__item">
-                            <button class="faq__item-button" type="button">
-                                <span class="faq__item-text">Does my company need help with marketing advice?</span>
-                                <img class="faq__item-icon" src="images/faq_plus.svg" alt="">
-                            </button>
-                        </li>
-                    </ul>
-                    <div class="faq__main">
-                        <h2 class="faq__title">How We Can Help You?</h2>
-                        <p class="faq__description">Follow our newsletter. We will regularly update our latest project and availability.</p>
-                        <form class="faq__form" action="#"> 
-                            <input class="faq__email" placeholder="Enter Your Email" type="email" name="email" aria-label="Email" required autocomplete="email">
-                            <button class="faq__submit" type="submit">Let's Talk</button>
-                        </form>
-                        <a class="faq__link" href="#">
-                            <span class="faq__more">More FAQ</span>
-                            <img class="faq__arrow-right" src="images/arrow--right.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="footer__main container">
-                <div class="footer__inner">
-                    <div class="footer__links">
-                        <a class="footer__logo-link" href="#"><img class="footer__logo" src="images/footer__logo.svg" alt="Embrace"></a>
-                        <div class="footer__social">
-                            <a class="footer__inst" href="#" aria-label="Instagram">
-                                <img class="footer__inst-logo" src="images/footer__inst-logo.svg" alt="">
-                            </a>
-                            <a class="footer__twitter" href="#" aria-label="Twitter">
-                                <img class="footer__twitter-logo" src="images/footer__twitter-logo.svg" alt="">
-                            </a>
-                            <a class="footer__facebook" href="#" aria-label="Facebook">
-                                <img class="footer__facebook-logo" src="images/footer__facebook-logo.svg" alt="">
-                            </a>
-                        </div>
-                        <button class="footer__contact-us" type="button">Contact Us</button>
-                    </div>
-                    <nav class="footer__nav" aria-label="Footer navigation">
-                        <ul class="footer__list">
-                            <li class="footer__item"><a class="footer__item-link" href="#">Work With Us</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#">Private Coaching</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#">About Us</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#">Advertise With Us</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#our-work">Our Work</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#faq">FAQs</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#">Support Us</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#commit">Our Commitment</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#">Report a Bug</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#">Business Advice</a></li>
-                            <li class="footer__item"><a class="footer__item-link" href="#meet-team">Our Team</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            <img
+              class="how-it-works__image"
+              src="images/og-image copy.png"
+              alt=""
+            />
+          </div>
+          <ul class="how-it-works__list">
+            <li class="how-it-works__item">
+              <img
+                class="how-it-works__logo"
+                src="images/majesticons_dollar-circle.svg"
+                alt=""
+              />
+              <div class="how-it-works__item-right">
+                <h3 class="how-it-works__item-title">Discovery</h3>
+                <p class="how-it-works__item-text">
+                  We meet with you to learn about your business, your goals, and
+                  your target audience.
+                </p>
+              </div>
+            </li>
+            <li class="how-it-works__item">
+              <img
+                class="how-it-works__logo"
+                src="images/majesticons_dollar-circle2.svg"
+                alt=""
+              />
+              <div class="how-it-works__item-right">
+                <h3 class="how-it-works__item-title">Strategy</h3>
+                <p class="how-it-works__item-text">
+                  We develop a customized marketing strategy that is based on
+                  your unique needs and goals.
+                </p>
+              </div>
+            </li>
+            <li class="how-it-works__item">
+              <img
+                class="how-it-works__logo"
+                src="images/majesticons_dollar-circle3.svg"
+                alt=""
+              />
+              <div class="how-it-works__item-right">
+                <h3 class="how-it-works__item-title">Execution</h3>
+                <p class="how-it-works__item-text">
+                  We execute our strategy using the latest digital marketing
+                  tools and techniques.
+                </p>
+              </div>
+            </li>
+            <li class="how-it-works__item">
+              <img
+                class="how-it-works__logo"
+                src="images/majesticons_dollar-circle4.svg"
+                alt=""
+              />
+              <div class="how-it-works__item-right">
+                <h3 class="how-it-works__item-title">Measurement</h3>
+                <p class="how-it-works__item-text">
+                  We track the results of our campaigns so that we can make
+                  adjustments as needed.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-work section--large" id="our-work">
+        <h2 class="our-work__title">Our Work</h2>
+        <p class="our-work__description">A glimpse of our portfolio</p>
+        <ul class="our-work__list container">
+          <li class="our-work__list-item">
+            <figure class="our-work__item">
+              <img class="our-work__image" src="images/Apple.png" alt="" />
+              <figcaption class="our-work__caption">Apple</figcaption>
+            </figure>
+          </li>
+          <li class="our-work__list-item">
+            <figure class="our-work__item">
+              <img class="our-work__image" src="images/Coca-Cola.png" alt="" />
+              <figcaption class="our-work__caption">Coca-Cola</figcaption>
+            </figure>
+          </li>
+          <li class="our-work__list-item">
+            <figure class="our-work__item">
+              <img class="our-work__image" src="images/Nike.png" alt="" />
+              <figcaption class="our-work__caption">Nike</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <a class="our-work__see-more" href="#">See More</a>
+      </section>
+      <section class="elevate-brand section">
+        <div class="elevate-brand__container container">
+          <div class="elevate-brand__inner container--flex">
+            <h2 class="elevate-brand__title">Elevate Your Brand Today!</h2>
+            <div class="elevate-brand__right">
+              <p class="elevate-brand__description">
+                Ready to transform your digital presence? Let's create magic
+                together! Book our services now!
+              </p>
+              <button class="elevate-brand__book-call" type="button">
+                Book Call
+              </button>
             </div>
-            <div class="footer__bottom">
-                <div class="footer__bottom-inner container">
-                    <p class="footer__bottom-text">© 2022 Embrace, Inc. - All Rights Reserved</p>
-                    <div class="footer__bottom-right">
-                        <a class="footer__bottom-text" href="#">Terms of use</a>
-                        <a class="footer__bottom-text" href="#">Privacy policy</a>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="meet-team section--large" id="meet-team">
+        <div class="meet-team__inner container container--flex">
+          <ul class="meet-team__photos">
+            <li class="meet-team__photo">
+              <img src="images/Team1.png" alt="" />
+            </li>
+            <li class="meet-team__photo">
+              <img src="images/Team2.png" alt="" />
+            </li>
+            <li class="meet-team__photo">
+              <img src="images/Team3.png" alt="" />
+            </li>
+            <li class="meet-team__photo">
+              <img src="images/Team4.png" alt="" />
+            </li>
+            <li class="meet-team__photo">
+              <img src="images/Team5.png" alt="" />
+            </li>
+            <li class="meet-team__photo">
+              <img src="images/Team6.png" alt="" />
+            </li>
+          </ul>
+          <div class="meet-team__main">
+            <div class="meet-team__main-top">
+              <h2 class="meet-team__title">Meet Our Team</h2>
+              <p class="meet-team__description">
+                Discover the brilliance behind Embrace. Our team blends
+                innovation and artistry to craft digital wonders that captivate
+              </p>
             </div>
-        </footer>
-    </body>
+            <a class="meet-team__learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section class="reviews section">
+        <div class="reviews__inner container">
+          <div class="reviews__title-container container--flex">
+            <h2 class="reviews__title">What Our Client Said About Us</h2>
+            <div class="reviews__arrows">
+              <button
+                class="reviews__arrow reviews__arrow-left"
+                type="button"
+                aria-label="Previous review"
+                data-reviews-prev
+                disabled
+              >
+                <img
+                  src="images/arrow-left.svg"
+                  alt=""
+                  data-src-enabled="images/arrow-left-enabled.svg"
+                  data-src-disabled="images/arrow-left.svg"
+                />
+              </button>
+              <button
+                class="reviews__arrow reviews__arrow-right"
+                type="button"
+                aria-label="Next review"
+                data-reviews-next
+              >
+                <img
+                  src="images/arrow-right.svg"
+                  alt=""
+                  data-src-enabled="images/arrow-right.svg"
+                  data-src-disabled="images/arrow-right-disabled.svg"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="reviews__viewport" data-reviews-viewport>
+            <ul class="reviews__list" data-reviews-track>
+              <li class="reviews__item is-active">
+                <figure class="reviews__item-head">
+                  <img
+                    class="reviews__client-photo"
+                    src="images/client1.png"
+                    alt=""
+                  />
+                  <figcaption class="reviews__client">
+                    <h3 class="reviews__client-name">Amelia Joseph</h3>
+                    <p class="reviews__client-profession">Chief Manager</p>
+                  </figcaption>
+                </figure>
+                <p class="reviews__client-description">
+                  My vision came alive effortlessly. Their blend of casual and
+                  professional approach made the process a breeze. Creativity
+                  flowed, and the results were beyond my expectations.
+                </p>
+              </li>
+              <li class="reviews__item">
+                <figure class="reviews__item-head">
+                  <img
+                    class="reviews__client-photo"
+                    src="images/client2.png"
+                    alt=""
+                  />
+                  <figcaption class="reviews__client">
+                    <h3 class="reviews__client-name">Jacob Joshua</h3>
+                    <p class="reviews__client-profession">Chief Manager</p>
+                  </figcaption>
+                </figure>
+                <p class="reviews__client-description">
+                  I found the digital expertise I needed. Their
+                  creative-professional balance exceeded expectations. Friendly
+                  interactions, exceptional outcomes. For digital enchantment,
+                  it's got to be Embrace!
+                </p>
+              </li>
+              <li class="reviews__item">
+                <figure class="reviews__item-head">
+                  <img
+                    class="reviews__client-photo"
+                    src="images/client3.png"
+                    alt=""
+                  />
+                  <figcaption class="reviews__client">
+                    <h3 class="reviews__client-name">Jacob Joshua</h3>
+                    <p class="reviews__client-profession">Chief Manager</p>
+                  </figcaption>
+                </figure>
+                <p class="reviews__client-description">
+                  Embrace really nails it! Creative brilliance, approachable
+                  style. They're the partners you want—artistry meets strategy.
+                  Thrilled with what they achieved!
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="start-now section--large">
+        <div class="start-now__background container">
+          <div class="start-now__inner">
+            <div class="start-now__main">
+              <h2 class="start-now__title">Start Your Journey With Us Now</h2>
+              <button class="start-now__button" type="button">Start Now</button>
+            </div>
+            <img
+              class="start-now__ellipse"
+              src="images/start-now__ellipse.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="faq section--large" id="faq">
+        <div class="faq__inner container">
+          <ul class="faq__list">
+            <li class="faq__item">
+              <button class="faq__item-button" type="button">
+                <!--- учебный сайт -> не добавляю интерактив дальше в js --->
+                <span class="faq__item-text"
+                  >How do I sign up for the project?</span
+                >
+                <img class="faq__item-icon" src="images/faq_plus.svg" alt="" />
+              </button>
+            </li>
+            <li class="faq__item">
+              <button class="faq__item-button" type="button">
+                <span class="faq__item-text"
+                  >What should I prepare before starting?</span
+                >
+                <img class="faq__item-icon" src="images/faq_plus.svg" alt="" />
+              </button>
+            </li>
+            <li class="faq__item">
+              <button class="faq__item-button" type="button">
+                <span class="faq__item-text"
+                  >Does my company need help with marketing advice?</span
+                >
+                <img class="faq__item-icon" src="images/faq_plus.svg" alt="" />
+              </button>
+            </li>
+          </ul>
+          <div class="faq__main">
+            <h2 class="faq__title">How We Can Help You?</h2>
+            <p class="faq__description">
+              Follow our newsletter. We will regularly update our latest project
+              and availability.
+            </p>
+            <form class="faq__form" action="#">
+              <input
+                class="faq__email"
+                placeholder="Enter Your Email"
+                type="email"
+                name="email"
+                aria-label="Email"
+                required
+                autocomplete="email"
+              />
+              <button class="faq__submit" type="submit">Let's Talk</button>
+            </form>
+            <a class="faq__link" href="#">
+              <span class="faq__more">More FAQ</span>
+              <img
+                class="faq__arrow-right"
+                src="images/arrow--right.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__main container">
+        <div class="footer__inner">
+          <div class="footer__links">
+            <a class="footer__logo-link" href="#"
+              ><img
+                class="footer__logo"
+                src="images/footer__logo.svg"
+                alt="Embrace"
+            /></a>
+            <div class="footer__social">
+              <a class="footer__inst" href="#" aria-label="Instagram">
+                <img
+                  class="footer__inst-logo"
+                  src="images/footer__inst-logo.svg"
+                  alt=""
+                />
+              </a>
+              <a class="footer__twitter" href="#" aria-label="Twitter">
+                <img
+                  class="footer__twitter-logo"
+                  src="images/footer__twitter-logo.svg"
+                  alt=""
+                />
+              </a>
+              <a class="footer__facebook" href="#" aria-label="Facebook">
+                <img
+                  class="footer__facebook-logo"
+                  src="images/footer__facebook-logo.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <button class="footer__contact-us" type="button">Contact Us</button>
+          </div>
+          <nav class="footer__nav" aria-label="Footer navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">Work With Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">Private Coaching</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">Advertise With Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#our-work">Our Work</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#faq">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">Support Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#commit">Our Commitment</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">Report a Bug</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#">Business Advice</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link" href="#meet-team">Our Team</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-inner container">
+          <p class="footer__bottom-text">
+            © 2022 Embrace, Inc. - All Rights Reserved
+          </p>
+          <div class="footer__bottom-right">
+            <a class="footer__bottom-text" href="#">Terms of use</a>
+            <a class="footer__bottom-text" href="#">Privacy policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
